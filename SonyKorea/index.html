@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>소니 코리아</title>
+    <script defer src="script/jquery-3.5.1.min.js"></script>
+    <script defer src="script/fullpage.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+    <script defer src="script/script.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar-wrap">
+            <div class="top-bar">
+                <a href="#" class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 526 114" xml:space="preserve" tabindex="-1" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false" class="brand-logo-svg" version="1.1"><g transform="translate(13.000000, 12.000000)" tabindex="-1" focusable="false" fill="#FFFFFF"><path d="M179.106,88.578 C160.994,88.578 144.183,83.144 132.96,73.074 C124.479,65.464 120.405,55.124 120.405,44.486 C120.405,33.973 124.655,23.565 132.96,15.996 C143.377,6.498 161.782,0.549 179.106,0.549 C198.278,0.549 213.624,5.378 225.355,16.021 C233.702,23.597 237.739,33.959 237.739,44.486 C237.739,54.691 233.454,65.558 225.355,73.074 C214.433,83.21 197.268,88.578 179.106,88.578 L179.106,76.966 C188.722,76.966 197.638,73.646 203.864,67.453 C210.051,61.298 212.933,53.73 212.933,44.486 C212.933,35.625 209.823,27.346 203.864,21.473 C197.719,15.418 188.591,12.013 179.106,12.013 C169.595,12.013 160.456,15.385 154.309,21.473 C148.383,27.342 145.267,35.65 145.267,44.486 C145.267,53.292 148.415,61.589 154.309,67.453 C160.46,73.574 169.566,76.966 179.106,76.966 L179.106,88.578"></path><path d="M46.724,0.591 C37.036,0.591 26.026,2.404 16.677,6.58 C8.046,10.433 0.979,16.66 0.979,26.986 C0.974,36.285 6.885,41.73 6.724,41.582 C9.239,43.896 13.286,47.837 23.866,50.154 C28.596,51.187 38.706,52.773 48.776,53.829 C58.767,54.882 68.605,55.882 72.608,56.898 C75.791,57.708 81.142,58.812 81.142,64.808 C81.142,70.783 75.509,72.607 74.529,72.999 C73.55,73.39 66.792,76.488 54.647,76.488 C45.679,76.488 34.899,73.79 30.968,72.386 C26.44,70.773 21.687,68.64 17.255,63.228 C16.152,61.882 14.414,58.193 14.414,54.537 L3.419,54.537 L3.419,85.341 L15.64,85.341 C15.64,85.341 15.64,81.962 15.64,81.177 C15.64,80.704 16.23,78.753 18.282,79.683 C20.835,80.843 28.326,83.826 36.159,85.462 C42.582,86.802 46.724,87.765 54.708,87.765 C67.735,87.765 74.735,85.646 79.573,84.263 C84.132,82.96 89.762,80.615 94.34,76.966 C96.815,74.994 102.249,69.935 102.249,60.755 C102.249,51.947 97.522,46.478 95.858,44.814 C93.593,42.548 90.823,40.787 87.938,39.433 C85.427,38.252 81.46,36.832 78.216,36.037 C71.917,34.49 57.677,32.584 50.864,31.872 C43.725,31.125 31.335,30.098 26.388,28.566 C24.887,28.101 21.833,26.644 21.833,23.097 C21.833,20.571 23.229,18.43 25.993,16.699 C30.38,13.952 39.241,12.24 48.481,12.24 C59.401,12.202 68.651,14.7 74.535,17.328 C76.538,18.221 78.876,19.507 80.737,21.025 C82.833,22.736 85.784,26.289 86.846,31.248 L96.716,31.248 L96.716,4.435 L85.696,4.435 L85.696,7.549 C85.696,8.558 84.658,9.865 82.695,8.782 C77.762,6.198 63.816,0.615 46.724,0.591"></path><path d="M288.223,5.464 L341.98,53.976 L341.43,21.314 C341.373,17.03 340.584,15.242 335.953,15.242 C329.762,15.242 325.844,15.242 325.844,15.242 L325.844,5.472 L371.811,5.472 L371.811,15.242 C371.811,15.242 368.141,15.242 361.947,15.242 C357.225,15.242 356.928,16.755 356.867,21.314 L357.701,83.728 L341.959,83.728 L280.047,28.467 L280.057,67.683 C280.113,71.949 280.311,73.954 284.703,73.954 C290.889,73.954 295.744,73.954 295.744,73.954 L295.744,83.724 L250.602,83.724 L250.602,73.954 C250.602,73.954 254.967,73.954 261.154,73.954 C265.096,73.954 264.939,70.197 264.939,67.462 L264.939,21.684 C264.939,18.73 264.523,15.248 258.336,15.248 L249.775,15.248 L249.775,5.464 L288.223,5.464"></path><path d="M424.332,73.937 C424.762,73.937 426.68,73.88 427.051,73.767 C428.113,73.437 428.834,72.679 429.168,71.89 C429.309,71.56 429.379,70.091 429.379,69.777 C429.379,69.777 429.385,54.849 429.385,54.333 C429.385,53.962 429.357,53.8 428.729,52.976 C428.035,52.07 400.572,20.947 399.314,19.578 C397.754,17.874 395.014,15.244 390.846,15.244 C387.533,15.244 381.297,15.244 381.297,15.244 L381.297,5.468 L435.197,5.468 L435.197,15.23 C435.197,15.23 429.953,15.23 428.699,15.23 C427.199,15.23 426.201,16.656 427.482,18.24 C427.482,18.24 445.619,39.934 445.791,40.164 C445.961,40.392 446.105,40.449 446.334,40.235 C446.561,40.02 464.924,18.441 465.068,18.269 C465.941,17.224 465.354,15.244 463.469,15.244 C462.211,15.244 456.799,15.244 456.799,15.244 L456.799,5.468 L500.979,5.468 L500.979,15.244 C500.979,15.244 494.422,15.244 491.109,15.244 C487.527,15.244 486.07,15.904 483.377,18.951 C482.145,20.344 454.389,52.027 453.633,52.886 C453.236,53.335 453.273,53.962 453.273,54.333 C453.273,54.929 453.273,68.341 453.273,69.771 C453.273,70.083 453.344,71.552 453.484,71.882 C453.816,72.675 454.539,73.431 455.602,73.759 C455.973,73.874 457.865,73.931 458.295,73.931 C460.234,73.931 468.391,73.931 468.391,73.931 L468.391,83.704 L414.766,83.704 L414.766,73.931 L424.332,73.937"></path></g></svg>
+                </a>
+                <nav class="icon">
+                    <a href="#" class="joy">
+                        <svg aria-labelledby="wishlist-picto" height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" class="sc-fznNvL iAszhc"><title id="search-picto">나의 셀렉션</title><path d="m13.62 2.05c-.9-1.01-2.18-1.59-3.5-1.59-1.09 0-1.96.32-2.62.75-.66-.43-1.53-.75-2.62-.75-1.31 0-2.6.58-3.52 1.59-.99 1.08-1.47 2.54-1.34 4 .24 2.6 2.79 5.67 6.66 8l.81.49.81-.49c3.87-2.33 6.42-5.39 6.66-8 .14-1.46-.35-2.92-1.34-4zm-.69 3.99c-.17 1.88-2.31 4.36-5.44 6.25-3.12-1.88-5.27-4.36-5.44-6.25-.18-1.89 1.26-3.57 3.02-3.57s2.43 1.28 2.43 1.28.64-1.28 2.41-1.28 3.2 1.68 3.02 3.57z"></path></svg>
+                    </a>
+                    <a href="#" class="sch">
+                        <svg aria-labelledby="search-picto" height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" class="sc-fznNvL iAszhc" name="search"><title id="search-picto">검색하기</title><path d="m15 13.6-4.1-4.1c.7-1 1.1-2.2 1.1-3.5 0-3.3-2.7-6-6-6s-6 2.7-6 6 2.7 6 6 6c1.3 0 2.5-.4 3.5-1.1l4.1 4.1zm-9-3.6c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z" id="search"></path></svg>
+                    </a>
+                    <a href="#">
+                        <div class="menu"></div>
+                    </a>
+                </nav>
+                
+                <div class="sch-box">
+                    <form action="#" method="">
+                        <input type="text" placeholder="제품 검색">
+                        <button onclick="location.href='#'">
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 11" class="sc-pcJja jjDvpo"><path d="m11 5.5-4.3 4.2-1.4-1.5 1.8-1.7h-7.1v-2h7.1l-1.8-1.7 1.4-1.4z" id="arrowRight"></path></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+</div>
+        
+        <div class="mob-box">
+            <a href="#"></a>
+            <div class="mob-menu">
+                <ul>
+                    <li><a href="#">소니 스토어</a></li>
+                    <li><a href="#" class="sub">전자제품 <img src="images/button.png"></a>
+                        <ul>
+                            <li class="sub-2"><a href="#">오디오 <img src="images/button.png"></a>
+                                <ul>
+                                    <li><a href="#">헤드폰</a></li>
+                                    <li><a href="#">MP3 플레이어</a></li>
+                                    <li><a href="#">하이 레졸루션 오디오</a></li>
+                                    <li><a href="#">무선 스피커</a></li>
+                                    <li><a href="#">차량용 수신기 및 플레이어</a></li>
+                                    <li><a href="#">차량용 스피커 및 앰프</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-2"><a href="#">카메라 <img src="images/button.png"></a>
+                                <ul>
+                                    <li><a href="#">렌즈 교환식 카메라</a></li>
+                                    <li><a href="#">렌즈</a></li>
+                                    <li><a href="#">컴팩트 카메라</a></li>
+                                    <li><a href="#">시네마 라인 카메라</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-2"><a href="#">비디오 카메라 <img src="images/button.png"></a>
+                                <ul>
+                                    <li><a href="#">캠코더</a></li>
+                                    <li><a href="#">액션 카메라</a></li>
+                                    <li><a href="#">전문가용 비디오 카메라</a></li>
+                                    <li><a href="#">시네마 라인 카메라</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-2"><a href="#">스토리지 및 케이블 <img src="images/button.png"></a>
+                                <ul>
+                                    <li><a href="#">메모리 카드 및 SSD</a></li>
+                                    <li><a href="#">케이블</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-2"><a href="#">전문가용 제품 및 솔루션</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Playstation®</a></li>
+                    <li><a href="#">제품지원</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <div id="fullpage">
+        <div class="section section-1">
+            <div class="text-box">
+                <h1>Sony's Purpose</h1>
+                <h2>
+                    <span>Fill the world with emotion,</span>
+                    <span>through the power of</span>
+                    <span>creativity and technology.</span>
+                </h2>
+                <a href="#"><span>ABOUT SONY</span></a>
+            </div>
+            <nav class="scroll">
+                <span>SCROLL</span>
+                <nav></nav>
+            </nav>
+        </div>
+        <div class="section section-2">
+            <div class="text-box">
+                <h1>CAMERA</h1>
+                <h2>
+                    <span>상상을 능가하는 이미지</span>
+                    <span>모든 위대함은,</span>
+                    <span>아주 작은 것들로부터</span>
+                </h2>
+                <a href="#"><span>SONY STORE</span></a>
+                <a href="#"><span>VIEW MORE</span></a>
+            </div>
+            <nav class="scroll">
+                <span>SCROLL</span>
+                <nav></nav>
+            </nav>
+        </div>
+        <div class="section section-3">
+            <div class="bg"></div>
+            <div class="text-box">
+                <h1>AUDIO</h1>
+                <h2>
+                    <span>놀랍도록 사실적이고</span>
+                    <span>몰입적인 사운드</span>
+                    <span>소리로 공간을 디자인하다.</span>
+                </h2>
+                <a href="#"><span>SONY STORE</span></a>
+                <a href="#"><span>VIEW MORE</span></a>
+            </div>
+            <nav class="scroll">
+                <span>SCROLL</span>
+                <nav></nav>
+            </nav>
+        </div>
+        <div class="section section-4">
+           <div class="bg"></div>
+            <div class="text-box">
+                <h1>Playstation®</h1>
+                <h2>
+                    <span>환상적인 차세대 PlayStation 게임</span>
+                    <span>예상을 뒤엎는 완전히 새로운</span>
+                    <span>게이밍 세계를 경험해 보세요.</span>
+                </h2>
+                <a href="#"><span>VIEW MORE</span></a>
+            </div>
+        </div>
+        <div class="section section-5 fp-auto-height">
+            <div class="content content-1 ft-1">
+                <div>
+                   <ul>
+                    <li><a href="#">매장 찾기<img src="images/button.png"></a>
+                        <ul>
+                            <li><a href="#">매장 찾기</a></li>
+                            <li><a href="#">직영점 안내</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">고객 지원<img src="images/button.png"></a>
+                            <ul>
+                                <li><a href="#">소니 코리아</a></li>
+                                <li><a href="#">소니 스토어</a></li>
+                                <li><a href="#">프로페셔널</a></li>
+                                <li><a href="#">상담 서비스</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">소니 사이트<img src="images/button.png"></a>
+                            <ul>
+                                <li><a href="#">소니 스토어</a></li>
+                                <li><a href="#">소니 프로페셔널</a></li>
+                                <li><a href="#">Playstation®</a></li>
+                                <li><a href="#">소니 글로벌</a></li>
+                                <li><a href="#">소니 ATV 뮤직 퍼블리싱</a></li>
+                                <li><a href="#">소니 픽쳐스</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">뉴스 및 정보<img src="images/button.png"></a>
+                            <ul>
+                                <li><a href="#">회사 소개</a></li>
+                                <li><a href="#">뉴스룸</a></li>
+                                <li><a href="#">환경 경영</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="box-1">
+                    <img src="images/flat.png">
+                    <span>대한민국</span>
+                </a>
+                <div class="box-2">
+                    <a href="#"><img src="images/Y_icon.png"></a>
+                    <a href="#"><img src="images/F_icon.png"></a>
+                    <a href="#"><img src="images/In_icon.png"></a>
+                </div>
+            </div>
+            
+            <div class="content content-1 ft-2">
+                <div>
+                   <ul>
+                    <li class="sub1"><a href="#">매장 찾기<img src="images/button.png"></a>
+                        <ul>
+                            <li><a href="#">매장 찾기</a></li>
+                            <li><a href="#">직영점 안내</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                    <ul>
+                        <li class="sub1"><a href="#">고객 지원<img src="images/button.png"></a>
+                            <ul>
+                                <li><a href="#">소니 코리아</a></li>
+                                <li><a href="#">소니 스토어</a></li>
+                                <li><a href="#">프로페셔널</a></li>
+                                <li><a href="#">상담 서비스</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="sub1"><a href="#">소니 사이트<img src="images/button.png"></a>
+                            <ul>
+                                <li><a href="#">소니 스토어</a></li>
+                                <li><a href="#">소니 프로페셔널</a></li>
+                                <li><a href="#">Playstation®</a></li>
+                                <li><a href="#">소니 글로벌</a></li>
+                                <li><a href="#">소니 ATV 뮤직 퍼블리싱</a></li>
+                                <li><a href="#">소니 픽쳐스</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="sub1"><a href="#">뉴스 및 정보<img src="images/button.png"></a>
+                            <ul>
+                                <li><a href="#">회사 소개</a></li>
+                                <li><a href="#">뉴스룸</a></li>
+                                <li><a href="#">환경 경영</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="box-1">
+                    <img src="images/flat.png">
+                    <span>대한민국</span>
+                </a>
+                <div class="box-2">
+                    <a href="#"><img src="images/Y_icon.png"></a>
+                    <a href="#"><img src="images/F_icon.png"></a>
+                    <a href="#"><img src="images/In_icon.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="section section-6 fp-auto-height">
+            <div class="content content-2">
+                <div class="box">
+                    <span>COPYRIGHT © 2021. SONY KOREA CORPORATION. ALL RIGHTS RESERVED.</span>
+                    <nav>
+                        <span>이용약관</span>
+                        <span>개인정보취급방침</span>
+                        <span>이메일주소</span>
+                        <span>무단수집거부</span>
+                        <span>SSL보안인증</span>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
